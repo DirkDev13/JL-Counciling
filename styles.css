@@ -49,6 +49,7 @@ body{
     padding: 2rem;
     display: flex;
     align-items: center;
+    height: 20rem;
 }
 
 
@@ -64,34 +65,6 @@ h3{
 }
 
 
-.btn{
-  all: unset;          /* removes browser defaults */
-  padding: 1rem 1rem;
-  color: var(--bg-dark);
-  text-decoration: none;
-  border: var(--border-card);
-  border-top: 1px solid var(--highlight);
-  border-radius: 1rem;
-  cursor: pointer;
-  box-shadow: var(--shadow);
-  font: inherit;       /* matches the <a> font */
-  width: 5rem;
-  display: flex;
-  justify-content: center;
-}
-
-.contact{
-    background-color: var(--secondary);
-}
-.booknow{
-    background: var(--primary);
-}
-
-.btn:hover{
-    background-color: var(--warning);
-    /* color: var(--text-muted); */
-}
-
 .button-list{
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -101,11 +74,10 @@ h3{
 
 .calendly-inline-widget{
    min-width: 45rem;
-   height: 60rem;
+   height: 24rem;
 }
 
 .container2{
     display: flex;
-    align-items: flex-start;
 }
 
