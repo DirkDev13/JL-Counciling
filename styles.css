@@ -42,6 +42,7 @@ body{
     align-items: center;
     justify-content: center;
     margin-top: 0;
+    padding: 2rem;
 }
 
 .pi-box{
@@ -49,7 +50,7 @@ body{
     padding: 2rem;
     display: flex;
     align-items: center;
-    height: 20rem;
+    /* flex-wrap: wrap;  */
 }
 
 
@@ -73,11 +74,28 @@ h3{
 }
 
 .calendly-inline-widget{
-   min-width: 45rem;
+   /* min-width: 45rem; */
    height: 24rem;
 }
 
-.container2{
+
+.container2 {
     display: flex;
+    /* flex-wrap: wrap;          */
+    align-items: stretch;       
 }
+
+/* Each child gets 50% width on desktop */
+.container2 > * {
+    flex: 1 1 calc(50% - 1rem);
+    display: flex;              
+}
+
+/* Mobile: stack full width */
+@media (max-width: 768px) {
+    .container2 > *, .container2{
+        flex-wrap: wrap;
+    }
+}
+
 
