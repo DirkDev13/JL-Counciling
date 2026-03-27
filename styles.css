@@ -98,4 +98,39 @@ h3{
     }
 }
 
+a:hover{
+    color: var(--highlight);
+    cursor: pointer;
+    padding: 0.5rem 0.5rem;
+    background: var(--text-muted);
+}
 
+
+
+header{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem 1rem ;
+}
+
+.btn{
+  all: unset;          /* removes browser defaults */
+  padding: 0.5rem 0.5rem;
+  width: 6rem;
+  background: var(--text-muted);
+  color: var(--bg-dark);
+  text-decoration: none;
+  border: var(--border-card);
+  border-radius: 0.25rem;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  font: inherit;       /* matches the <a> font */
+  display: flex;
+  justify-content: center;
+}
+
+.get-in-touch{
+    background-color: var(--primary);
+}
