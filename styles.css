@@ -84,6 +84,18 @@ p {
     align-items: center;
 }
 
+.calendly-inline-widget {
+  width: 100%;
+  min-width: 0;        
+  height: 60rem;       
+}
+
+@media (max-width: 768px) {
+ .about-content {
+    flex-wrap: wrap;
+  }
+}
+
 .portrait img {
     width: 280px;
     height: 320px;
