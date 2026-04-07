@@ -141,8 +141,9 @@ p {
 }
 
 /* TESTIMONIALS */
-.testimonials {
+.testimonials, .services{
     text-align: center;
+    padding: 4rem;
 }
 
 .testimonial {
