@@ -109,21 +109,35 @@ p {
     margin-bottom: 15px;
 }
 
+
 /* SERVICES */
 .service-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 1.5rem;
     margin-top: 2rem;
+
 }
 
-.service-item {
+.service-item{
     background: var(--card-bg);
     padding: 1.4rem;
     border-radius: 0.6rem;
     text-align: center;
     border-left: 4px solid var(--primary);
     box-shadow: 0 3px 10px var(--border-soft);
+}
+
+
+.pillars-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--card-bg);
+    padding: 1.4rem;
+    border-radius: 0.6rem;
+    box-shadow: 0 3px 10px var(--border-soft);
+    gap: 1rem
 }
 
 /* TESTIMONIALS */
