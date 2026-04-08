@@ -261,10 +261,8 @@ footer {
     flex-wrap: wrap;
   }
 header{
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
-.header-link-box{
-    /* gap:0.25rem; */
-}
+
 }
