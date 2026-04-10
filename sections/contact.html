@@ -13,20 +13,32 @@
          <h1>Get in Touch</h1>
     </header>
 <body>
-  <form class="formbox">
-    <Label>Name</Label>
-    <input type="text" name="name" required>
+  <div class="formbox"> 
+    <form >
+      <div class="form-element">
+        <Label>Name</Label>
+        <input type="text" name="name" required>
+      </div>
 
-    <label>Email</label>
-    <input type="email" name="email" required>
+      <div class="form-element">
+        <label>Email</label>
+        <input type="email" name="email" required>
+      </div>
+    
+      <div class="form-element">
+        <label>Message</label>
+        <textarea name="message" rows="25" required></textarea>
+      </div>
 
-    <label>Message</label>
-    <textarea name="message" rows="7" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+    </form>
+  </div>
 
-    <button type="submit">Send Message</button>
-  </form>
 
  
 
 </body>
+    <footer>
+        © 2026 Jane Lord counselling, all rights reserved
+    </footer>
 </html>
